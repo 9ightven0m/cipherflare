@@ -1,5 +1,47 @@
+# === Virtual environments & Python ===
 pgp-poc-env/
+venv/
+.venv/
+env/
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 *.pyc
+*.sqlite3
+.env
+.env.local
+
+# === Generated / Output files ===
 verified.json
+dark_web_results/
 *.log
+*.tmp
+*.cache
+.cache/
+
+# === Node.js / Next.js ===
+node_modules/
+.next/
+dist/
+build/
+
+# === IDE / System ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# === Large binaries / archives ===
+*.tar.gz
+*.tgz
+*.zip
+*.jar
+*.so
+elasticsearch-*/
+kafka_*/
+
+# === Git itself (never commit .git) ===
+.git
