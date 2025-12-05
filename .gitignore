@@ -1,0 +1,5 @@
+pgp-poc-env/
+__pycache__/
+*.pyc
+verified.json
+*.log
